@@ -182,7 +182,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;
   margin-right: 6px;
 }
 
@@ -424,7 +424,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  background: url() top center no-repeat;
   background-size: cover;
 }
 
@@ -436,9 +436,9 @@ section {
 }
 
 .hero h2 {
-  color: #444444;
+  color: #012970;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .hero .btn-get-started {
@@ -515,26 +515,27 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #305fbd;
   padding: 40px;
 }
 
 .about h3 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
-  color: #4154f1;
+  color: #fff;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: rgb(223, 222, 222);
 }
 
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  color: rgb(201, 198, 198);
 }
 
 .about .btn-read-more {
@@ -772,7 +773,7 @@ section {
 
 .services .service-box .icon {
   font-size: 36px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 4px;
   position: relative;
   margin-bottom: 25px;
@@ -2249,7 +2250,7 @@ section {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white url(../img/footer.jpg) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
